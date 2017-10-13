@@ -25,14 +25,13 @@ class ReadingViewController: UIViewController {
     
     @IBAction func pauseTapped(_ sender: Any) {
         timer.invalidate()
-        timerIsOn = false
     }
     
     @IBAction func resetTapped(_ sender: Any) {
         timer.invalidate()
         timeRemaining = 3600
         timeLabel.text = "60:00"
-        timerIsOn = false
+        
     }
     
 
@@ -49,7 +48,7 @@ class ReadingViewController: UIViewController {
         }
         else{
             timer.invalidate()
-            timerIsOn = false
+           
         }
     }
     

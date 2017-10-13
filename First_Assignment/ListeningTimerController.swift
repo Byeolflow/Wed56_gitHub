@@ -24,14 +24,14 @@ class ListeningViewController: UIViewController {
     
     @IBAction func pauseTapped(_ sender: Any) {
         timer.invalidate()
-        timerIsOn = false
+        
     }
     
     @IBAction func resetTapped(_ sender: Any) {
         timer.invalidate()
         timeRemaining = 600
         timeLabel.text = "10:00"
-        timerIsOn = false
+
     }
     
     func timerRunning(){
@@ -45,7 +45,6 @@ class ListeningViewController: UIViewController {
         }
         else{
             timer.invalidate()
-            timerIsOn = false
         }
     }
     
