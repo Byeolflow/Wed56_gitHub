@@ -14,8 +14,8 @@
 		CDE10D5B1F8E3FEB00A10DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE10D591F8E3FEB00A10DAE /* Main.storyboard */; };
 		CDE10D5D1F8E3FEB00A10DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE10D5C1F8E3FEB00A10DAE /* Assets.xcassets */; };
 		CDE10D601F8E3FEB00A10DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE10D5E1F8E3FEB00A10DAE /* LaunchScreen.storyboard */; };
-		CDE10D681F8E483500A10DAE /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE10D671F8E483500A10DAE /* ReadingViewController.swift */; };
-		CDE10D6A1F8E484900A10DAE /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE10D691F8E484900A10DAE /* ListeningViewController.swift */; };
+		CDE10D681F8E483500A10DAE /* ReadingTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE10D671F8E483500A10DAE /* ReadingTimerController.swift */; };
+		CDE10D6A1F8E484900A10DAE /* ListeningTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE10D691F8E484900A10DAE /* ListeningTimerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		CDE10D5C1F8E3FEB00A10DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE10D5F1F8E3FEB00A10DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE10D611F8E3FEC00A10DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDE10D671F8E483500A10DAE /* ReadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
-		CDE10D691F8E484900A10DAE /* ListeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
+		CDE10D671F8E483500A10DAE /* ReadingTimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingTimerController.swift; sourceTree = "<group>"; };
+		CDE10D691F8E484900A10DAE /* ListeningTimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeningTimerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				CDE10D5C1F8E3FEB00A10DAE /* Assets.xcassets */,
 				CDE10D5E1F8E3FEB00A10DAE /* LaunchScreen.storyboard */,
 				CDE10D611F8E3FEC00A10DAE /* Info.plist */,
-				CDE10D671F8E483500A10DAE /* ReadingViewController.swift */,
-				CDE10D691F8E484900A10DAE /* ListeningViewController.swift */,
+				CDE10D671F8E483500A10DAE /* ReadingTimerController.swift */,
+				CDE10D691F8E484900A10DAE /* ListeningTimerController.swift */,
 				CD34FCB31F8F517F0071F9DA /* ReadingScoreViewController.swift */,
 				CD2E7A681F8F823000900DEF /* ListeningScoreViewController.swift */,
 			);
@@ -148,12 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE10D6A1F8E484900A10DAE /* ListeningViewController.swift in Sources */,
+				CDE10D6A1F8E484900A10DAE /* ListeningTimerController.swift in Sources */,
 				CDE10D581F8E3FEB00A10DAE /* ViewController.swift in Sources */,
 				CDE10D561F8E3FEA00A10DAE /* AppDelegate.swift in Sources */,
 				CD2E7A691F8F823000900DEF /* ListeningScoreViewController.swift in Sources */,
 				CD34FCB41F8F517F0071F9DA /* ReadingScoreViewController.swift in Sources */,
-				CDE10D681F8E483500A10DAE /* ReadingViewController.swift in Sources */,
+				CDE10D681F8E483500A10DAE /* ReadingTimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
